@@ -1,8 +1,24 @@
-body{
-    background-color: aqua;
+@import'vars';
+
+h1{
+    font-size: $largeFont;
 }
 
-.container{
-    
+li{
+    font-size: $mideumFont;
+}
 
+p{
+    font-size: $smallFont;
+    color:$paragrafColor;
+}
+
+header{
+    ul{
+        li{
+            &:nth-child(2){
+                background-color:$paragrafColor;
+            }
+        }
+    }
 }

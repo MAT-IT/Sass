@@ -1,4 +1,17 @@
-body {
-  background-color: aqua;
+h1 {
+  font-size: 50px;
+}
+
+li {
+  font-size: 35px;
+}
+
+p {
+  font-size: 20px;
+  color: #c92167;
+}
+
+header ul li:nth-child(2) {
+  background-color: #c92167;
 }
 /*# sourceMappingURL=style.css.map */
